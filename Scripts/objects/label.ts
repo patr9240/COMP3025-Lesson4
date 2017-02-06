@@ -11,7 +11,7 @@ module objects {
         public Start():void {
             if(this.centered){
                 this.regX = this.getMeasuredWidth() * 0.5;
-                this.regY = this.getMeasuredLineHeight() *0.5;
+                this.regY = this.getMeasuredLineHeight() * 0.5;
             }
         }
     }
